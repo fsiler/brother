@@ -52,7 +52,7 @@ restore
 
 *OpenUI *PageSize: PickOne
 *OrderDependency: 30 AnySetup *PageSize
-*DefaultPageSize: A4
+*DefaultPageSize: Letter
 *PageSize Letter/Letter: "                      "
 *PageSize Legal/Legal: "                      "
 *PageSize Executive/Executive: "                      "
@@ -69,7 +69,7 @@ restore
 
 *OpenUI *PageRegion: PickOne
 *OrderDependency: 40 AnySetup *PageRegion
-*DefaultPageRegion: A4
+*DefaultPageRegion: Letter
 *PageRegion Letter/Letter: "                      "
 *PageRegion Legal/Legal: "                      "
 *PageRegion Executive/Executive: "                      "
@@ -84,7 +84,7 @@ restore
 *PageRegion EnvISOB6/B6: "                      "
 *CloseUI: *PageRegion
 
-*DefaultImageableArea: A4
+*DefaultImageableArea: Letter
 *ImageableArea Letter/Letter: "18 12 594 780"
 *ImageableArea Legal/Legal: "18 12 594 996"
 *ImageableArea Executive/Executive: "18 12 504 744"
@@ -100,7 +100,7 @@ restore
 
 *%==== Information About Media Sizes ========
 
-*DefaultPaperDimension: A4
+*DefaultPaperDimension: Letter
 *PaperDimension Letter/Letter: "612 792"
 *PaperDimension Legal/Legal: "612 1008"
 *PaperDimension Executive/Executive: "522 756"
@@ -142,7 +142,7 @@ restore
 *%=== Duplex ================================
 *OpenUI *Duplex: PickOne
 *OrderDependency: 25 AnySetup *Duplex
-*DefaultDuplex: None
+*DefaultDuplex: DuplexNoTumble
 *Duplex DuplexTumble: "                      "
 *Duplex DuplexNoTumble: "                      "
 *Duplex None: "                      "
@@ -154,7 +154,7 @@ restore
 *%%%%% Resolution and Appearance Control %%%%%
 *OpenUI *Resolution: PickOne
 *OrderDependency: 11 AnySetup *Resolution
-*DefaultResolution: 600dpi
+*DefaultResolution: 2400x600dpi
 *Resolution	600dpi: "                      "
 *Resolution	2400x600dpi/HQ1200dpi: "                    "
 *CloseUI: *Resolution
